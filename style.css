@@ -1,0 +1,101 @@
+html, body {
+            height: 100%;
+            margin: 0;
+}
+
+
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+h1 {
+    position: absolute;
+    top: -10px; 
+	left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1000;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1); 
+    color:  #FA5F55; 
+    border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+	font-family: Bookman, URW Bookman L;
+
+}
+	
+
+
+
+#logo1 {
+        position: absolute;
+        bottom: 30px;
+		width: 100px;
+		height: auto;
+        left: 15px;
+        z-index: 1000;
+}
+
+
+
+#logo2 {
+        position: absolute;
+        bottom: 0px;
+		width: 150px;
+		height: auto;
+        right: 0px;
+        z-index: 1000;
+}
+
+#author {
+        position: fixed;
+        bottom: -8px;
+		left: 50%; 
+		transform: translateX(-50%); 
+        font-size: 1em;
+        color:  #2e86c1 ;
+        font-style: italic;
+        z-index: 500; 
+        padding: 10px 20px;
+		font-family: Impact, fantasy;
+		background-color: rgba(255, 255, 255, 1);
+		border-radius: 10px;
+		
+}
+
+.map-overlay-2 {
+            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            position: absolute;
+            width: 200px;
+            top: 0px;
+            right: 0px; /*Je place en haut à droite la check box */
+            padding: 10px;
+        }
+
+.map-overlay-2 .map-overlay-inner {
+            background-color: #fff;
+            box-shadow:0 1px 2px rgba(0, 0, 0, 0.10);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+.map-overlay-inner fieldset {
+            border: none;
+            padding: 0;
+            margin: 0 0 10px;
+        }
+
+.map-overlay-inner .categoryLabel {
+    display: block;
+    font-weight: bold;
+    margin: 11px 0 10px 0; /* Ajoute un margin-top pour descendre le texte */
+}
+		
